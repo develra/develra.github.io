@@ -8,5 +8,6 @@ function inject(element){
 			//$('#content_body').load("./pages/contact.html");
 			break;
 	}
-	return html2inject;
+	alert(html2inject);
+	return html2inject.toString();
 }
