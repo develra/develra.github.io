@@ -21,7 +21,7 @@ function execute(command){
 			break;
 		case "contact":
 		case "Contact":
-			response = inject('contact');
+			response = '</br>'+inject('contact');
 			break;
 		case "life":
 		case "Life":
