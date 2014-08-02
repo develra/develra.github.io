@@ -2,8 +2,8 @@ function inject(element){
 	file = ""
 	switch (element){
 		case "contact":
-			$('#content_body').load("./pages/contact.html");
+			//$('#content_body').load("./pages/contact.html");
 			break;
 	}
-	return;
+	return $('#temp').load("./pages/contact.html");
 }
