@@ -2,7 +2,7 @@ function inject(element){
 	html2inject = "";
 	switch (element){
 		case "contact":
-			html2inject = $.get('./pages/contact.html', function(data) {
+			$.get('./pages/contact.html', function(data) {
 				html2inject = data;
 				return;
 			});
