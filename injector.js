@@ -5,7 +5,6 @@ function inject(element){
 			html2inject = fetch_page('./pages/contact.html')
 			break;
 	}
-	alert(html2inject);
 	return html2inject;
 }
 

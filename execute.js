@@ -21,7 +21,7 @@ function execute(command){
 			break;
 		case "contact":
 		case "Contact":
-			response = colorize("Contact30", "color4")+inject('contact');
+			response = colorize("Contact", "color4")+inject('contact');
 			break;
 		case "life":
 		case "Life":
