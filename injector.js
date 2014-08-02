@@ -1,11 +1,12 @@
 function inject(element){
+	html2inject = "";
 	switch (element){
 		case "contact":
-			$.get('./pages/contact.html', function(data) {
-				alert($.parseHTML(data));
-				return $.parseHTML(data);
+			html2inject = $.get('./pages/contact.html', function(data) {
+				return data;
 			});
 			//$('#content_body').load("./pages/contact.html");
 			break;
 	}
+	return html2inject;
 }
