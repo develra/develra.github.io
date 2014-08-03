@@ -1,5 +1,9 @@
 /* style.css - a simple style sheet */
 /* universal reset for block padding */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
   margin-left: 3%; margin-right: 3%;
