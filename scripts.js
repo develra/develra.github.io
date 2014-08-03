@@ -37,7 +37,7 @@ function cmdText(event){
 		console.log($('#cmd').text());
 		$('#cmd_log').html($('#cmd_log').html()+'> '+$('#cmd').text()+'<br/>');
 		callback = execute($('#cmd').text());
-		$('#cmd_log').html($('#cmd_log').html()+callback);
+		$('#cmd_log').html($('#cmd_log').html()+callback+'<br/>');
 		$('#cmd').text("");
 	}
 	//else just append the pressed key
